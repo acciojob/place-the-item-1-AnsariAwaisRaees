@@ -1,2 +1,28 @@
-
 /* Your CSS Code here. */
+.flex-box{
+	display: flex;
+	justify-content: space-between;
+}
+.green{
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	font-style: bold;
+	font-size: 40px;
+}
+
+.red{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	font-style: bold;
+	font-size: 40px;
+}
+
+.blue{
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	font-style: bold;
+	font-size: 40px;
+}
