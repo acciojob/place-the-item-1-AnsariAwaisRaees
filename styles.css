@@ -1,34 +1,21 @@
 /* Your CSS Code here. */
-.flex-box{
-	display: flex;
-	justify-content: space-between;
+.holder{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
 }
-
-.flex-wrap{
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
+.item-3{
+	width:90px;
+	height:90px;
+	background-color:green;
 }
-.green{
-	width: 100px;
-	height: 100px;
-	background-color: green;
-	font-style: bold;
-	font-size: 40px;
+.item-1{
+	width:90px;
+	height:90px;
+	background-color:red;
 }
-
-.red{
-	width: 100px;
-	height: 100px;
-	background-color: red;
-	font-style: bold;
-	font-size: 40px;
-}
-
-.blue{
-	width: 100px;
-	height: 100px;
-	background-color: blue;
-	font-style: bold;
-	font-size: 40px;
+.item-2{
+	width:90px;
+	height:90px;
+	background-color:blue;
 }
